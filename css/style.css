@@ -5,7 +5,13 @@ body {
     color: #434455;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
@@ -14,7 +20,8 @@ button {
     cursor: pointer;
 }
 
-ul,ol {
+ul,
+ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -111,7 +118,7 @@ address {
 
 .nav-page {
     color: #2E2F42;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -174,14 +181,14 @@ address {
     background-position: center;
 }
 
-.hero-div {    
+.hero-div {
     align-items: center;
 }
 
 .section-h-hero {
     max-width: 496px;
-    color:  #FFFFFF;
-    font-family:'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -219,9 +226,9 @@ address {
 }
 
 .section-h-two {
-    color:  #2E2F42;
+    color: #2E2F42;
     text-align: center;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -238,11 +245,11 @@ address {
     width: 264px;
     height: 112px;
     border-radius: 4px;
-    border: 1px solid  #8E8F99;
+    border: 1px solid #8E8F99;
     background: #F4F4FD;
 
     margin-bottom: 8px;
-    
+
 }
 
 .section-two-ul {
@@ -267,7 +274,7 @@ address {
 
 .ul-h-tree {
     color: #2E2F42;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -277,8 +284,8 @@ address {
 }
 
 .ul-p {
-    color:#434455;
-    font-family: 'Roboto',sans-serif;
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -297,8 +304,8 @@ address {
 
 .section-four-li:hover {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .section-tree {
@@ -345,8 +352,8 @@ address {
 }
 
 .h-tree-li {
-    color:  #2E2F42;
-    font-family: 'Roboto',sans-serif;
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -374,8 +381,8 @@ address {
 }
 
 .p-li {
-    color:  #434455;
-    font-family: 'Roboto',sans-serif;
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -424,7 +431,7 @@ address {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     margin-bottom: 16px;
 }
 
@@ -434,7 +441,7 @@ address {
 
 .footer-p {
     color: #F4F4FD;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -488,64 +495,4 @@ address {
 .a-social-footer:hover,
 .a-social-footer:focus {
     background-color: #31d0aa;
-}
-
-.subscribe-label{
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
-.subscribe-form{
-    display: flex;
-    gap: 24px;
-}
-
-.footer-email{
-    width: 264px;
-    height: 40px;
-    border: 1px solid #ffffff;
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    color: #ffffff;
-    
-}
-
-.backdrop{
-position: fixed;
-top:0;
-left:0;
-z-index: 999999999;
-width: 100%;
-height: 100%;
-background-color: rgba(46,47,66,0.4)
- 
-}
-
-.modal{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50% );
-width: 408px;
-    min-height: 584px;
-    background-color: #FCFCFC;  
-    border-radius: 4px;
-}
-
-.modal-closee-btn{
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    width: 24px;
-        height: 24px;
-        line-height: 0;
 }
